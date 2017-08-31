@@ -82,7 +82,7 @@ def assert_verify_the_row_contains_text(my_table, text_to_compare_with, row_numb
     else:
         print('The text {} matches with the text {} we were looking for'.format(text_to_compare_with), all_rows[row_number - 1])
 
-print('--------------------------------')
+print('---------------------------------')
 
 
 
