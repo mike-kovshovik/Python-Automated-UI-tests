@@ -24,6 +24,7 @@ username.send_keys('vdamm04')
 password.send_keys('qWaszx12')
 
 # act
+time.sleep(2)
 login_confirm = driver.find_element(By.CSS_SELECTOR, 'button.btn.btn-primary')
 login_confirm.click()
 add_client = driver.find_element_by_link_text('Add Client').click()
@@ -52,6 +53,8 @@ wait = WebDriverWait(driver, 10)
 element = wait.until(EC.presence_of_element_located((By.XPATH, ".//*[@id='sidebar-container']/div/div")))
 
 assert_client_was_created()
+
+
 
 #bar_info = driver.find_element(By.XPATH, ".//*[@id='sidebar-container']/div[1]/div")
 #bar_info_text = bar_info.text
