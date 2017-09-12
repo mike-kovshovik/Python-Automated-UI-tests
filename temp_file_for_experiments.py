@@ -142,8 +142,36 @@ print rows
 assert_number_of_rows_in_table(table, 5)
 assert_col_in_row_contains_text(table, 'Jill', row_number=4, col_number=1)
 
+################################################
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
 
-##
+base_url = 'https://intelliflo99.mypfp.co.uk'
+driver = webdriver.Firefox()
+driver.get(base_url)
+driver.implicitly_wait(30)
+
+driver.find_element(By.XPATH, 'html/body/div[1]/div/header/div/div/div[2]/nav/div[1]/div[2]/a').click()
+
+driver.find_element(By.ID, 'username').send_keys('forgotpasswordinprod@mailinator.com')
+driver.find_element(By.ID, 'password').send_keys('qWaszx123')
+
+driver.find_element(By.XPATH, 'html/body/div/div[2]/div/div/div[1]/div/div[1]/form/fieldset/div[3]/button').click()
+
+driver.implicitly_wait(30)
+driver.get(base_url + '/overview/planningandadvice')
+
+checkbox1 = driver.find_element_by_xpath(".//*[@id='planning-and-advice-form']/div/div/div[4]/label/span")
+checkbox1.click()
+##################################################
 
 
-
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+text = 'The language for building web pages23'
+url2 = 'https://www.w3schools.com/'
+driver_w3 = webdriver.Chrome()
+driver_w3.get(url2)
+if text in driver_w3.page_source:
+    print ('fine')

@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 url = 'http://www.echoecho.com/htmlforms10.htm'
 
 driver.get(url)

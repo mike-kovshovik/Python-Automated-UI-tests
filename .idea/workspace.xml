@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f055c8-2359-4bc7-ac2f-e03f16d95112" name="Default" comment="">
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iframes.py" afterPath="$PROJECT_DIR$/iframes.py" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions_with_radiobuttons.py" afterPath="$PROJECT_DIR$/actions_with_radiobuttons.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iframes.py" afterPath="$PROJECT_DIR$/iframes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp_file_for_experiments.py" afterPath="$PROJECT_DIR$/temp_file_for_experiments.py" />
+>>>>>>> commiting all files
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,6 +59,7 @@
         <entry file="file://$PROJECT_DIR$/actions_with_radiobuttons.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -60,6 +68,11 @@
                 <marker date="1505214689907" expanded="true" signature="474:658" ph="..." />
                 <marker date="1505214689907" expanded="true" signature="612:658" ph="..." />
                 <marker date="1505214689907" expanded="true" signature="661:844" ph="..." />
+=======
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+>>>>>>> commiting all files
               </folding>
             </state>
           </provider>
@@ -68,8 +81,13 @@
       <file leaf-file-name="iframes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iframes.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
             <state relative-caret-position="277">
               <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+=======
+            <state relative-caret-position="311">
+              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+>>>>>>> commiting all files
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -81,7 +99,11 @@
         <entry file="file://$PROJECT_DIR$/actions_with_checkboxes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+=======
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+>>>>>>> commiting all files
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -405,7 +427,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3033586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46045503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18743229" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> commiting all files
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -490,11 +516,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
             <marker date="1505214689907" expanded="true" signature="215:398" ph="..." />
             <marker date="1505214689907" expanded="true" signature="444:658" ph="..." />
             <marker date="1505214689907" expanded="true" signature="474:658" ph="..." />
             <marker date="1505214689907" expanded="true" signature="612:658" ph="..." />
             <marker date="1505214689907" expanded="true" signature="661:844" ph="..." />
+=======
+>>>>>>> commiting all files
           </folding>
         </state>
       </provider>
@@ -553,11 +582,14 @@
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
             <marker date="1505214689907" expanded="true" signature="215:398" ph="..." />
             <marker date="1505214689907" expanded="true" signature="444:658" ph="..." />
             <marker date="1505214689907" expanded="true" signature="474:658" ph="..." />
             <marker date="1505214689907" expanded="true" signature="612:658" ph="..." />
             <marker date="1505214689907" expanded="true" signature="661:844" ph="..." />
+=======
+>>>>>>> commiting all files
           </folding>
         </state>
       </provider>
@@ -640,7 +672,11 @@
     <entry file="file://$PROJECT_DIR$/actions_with_checkboxes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+=======
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+>>>>>>> commiting all files
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -650,6 +686,7 @@
     <entry file="file://$PROJECT_DIR$/actions_with_radiobuttons.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -658,6 +695,11 @@
             <marker date="1505214689907" expanded="true" signature="474:658" ph="..." />
             <marker date="1505214689907" expanded="true" signature="612:658" ph="..." />
             <marker date="1505214689907" expanded="true" signature="661:844" ph="..." />
+=======
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+>>>>>>> commiting all files
           </folding>
         </state>
       </provider>
@@ -682,8 +724,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iframes.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 760f7e74d4de1367a72276651754f58c7eb6c2ba
         <state relative-caret-position="277">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+=======
+        <state relative-caret-position="311">
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+>>>>>>> commiting all files
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
