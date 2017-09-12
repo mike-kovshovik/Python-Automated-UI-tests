@@ -54,6 +54,7 @@ element = wait.until(EC.presence_of_element_located((By.XPATH, ".//*[@id='sideba
 
 assert_client_was_created()
 
+# comment added from win pc
 
 
 #bar_info = driver.find_element(By.XPATH, ".//*[@id='sidebar-container']/div[1]/div")
