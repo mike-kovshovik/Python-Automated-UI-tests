@@ -63,11 +63,6 @@ assert_client_was_created()
 '''
 
 
-
-
-
-
-
 You can use driver.page_source and a simple regular expression to check if the text exists:
 
 import re    

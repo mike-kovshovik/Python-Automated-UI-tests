@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-# import time
+import time
 
 # arrange
 driver = webdriver.Chrome()
@@ -12,10 +12,6 @@ url = 'https://answers.squarespace.com/index.html'
 driver.get(url)
 wait = WebDriverWait(driver, 10)
 element = wait.until(ec.presence_of_element_located((By.LINK_TEXT, 'Main Website')))
-# time.sleep(2)
-
-documentation_link = driver.find_element_by_link_text('Documentation')
-documentation_link.click()
 
 
 # assert
@@ -40,9 +36,37 @@ def switch_to_window_number(win_index):
     all_windows = driver.window_handles
     requested_window = all_windows[win_index-1]
     driver.switch_to.window(requested_window)
-
     return
 
 
-get_number_of_windows()
-switch_to_window_number(2)
+def assert_current_window_title(text_to_compare_with):
+    current_title = driver.title
+    if current_title != text_to_compare_with:
+        raise AssertionError("Current title is '{}'. It doesn't match with the text we were expecting to get {}"
+                             .format(current_title, text_to_compare_with))
+    else:
+        print("Current title is '{}' and it DOES match with the text we were expecting to get.".format(current_title))
+
+
+def my_squarespace_test():
+    expected_second_windows_title = 'Home — Squarespace Developers'
+
+    documentation_link = driver.find_element_by_link_text('Documentation')
+    documentation_link.click()
+
+    community_link = driver.find_element_by_link_text('Community Q&A')
+    community_link.click()
+
+    switch_to_window_number(3)
+    current_title = driver.title
+
+    if current_title != expected_second_windows_title:
+        raise AssertionError("Current title is {}. It doesn't match with the text we were expecting to get {}"
+                             .format(current_title, expected_second_windows_title))
+    else:
+        print("Current title is '{}' and it DOES match with the text we were expecting to get.".format(current_title))
+
+
+# get_number_of_windows()
+# assert_current_window_title('Squarespace - Answers')
+my_squarespace_test()
